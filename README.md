@@ -23,15 +23,6 @@
 - You can search movies across tmdb database.
   <br />
 
-### Prerequisites
-
-Most beginners with basic and HTML knowledge
-should be able to follow this example without any prior experience.
-With that said, if you feel "stuck" at any point,
-please consult the recommend reading (_and Google_)
-and if you cannot find an answer,
-please open an issue!
-
 ## _How?_
 
 Start by cloning this repository to your `localhost`
