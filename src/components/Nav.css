@@ -1,0 +1,44 @@
+.nav{
+    position: fixed;
+    top: 0;
+    width: 100%;/* to make justify content work after position fixed */
+    height: 5rem;
+    padding: 20px;
+    z-index: 1;
+
+    display: flex;
+    justify-content: space-between;
+
+    transition-timing-function: ease-in;
+    transition: all 0.5s;
+}
+
+.nav__black {
+    background-color: #1c1e3d;
+
+}
+
+.nav__logo {
+    position: fixed;
+    left: 20px;
+    width: 80px;
+    object-fit: contain;
+}
+
+.nav__btn{
+    position: fixed;
+    right: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+    outline: none;
+    border: none;
+    font-weight: 700;
+    border-radius: 0.2vw;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-right: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    background-color: rgba(51, 51, 51, 0.5);
+}
