@@ -15,7 +15,7 @@ function Row({ title, fetchUrl }) {
   async function fetchData() {
     //await - wait for the promise to comeback/resolve,then do something
     const request = await axios.get(fetchUrl);
-    console.log(request.data.results);
+    // console.log(request.data.results);
     setMovies(request?.data.results);
     return request;
   }
